@@ -1,0 +1,2 @@
+[console_scripts]
+a1ma = a1ma.cli:main

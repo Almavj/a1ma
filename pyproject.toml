@@ -1,0 +1,19 @@
+[project]
+name = "a1ma"
+version = "0.1.0"
+description = "a1ma — autonomous coding/security agent on free OpenRouter models"
+requires-python = ">=3.10"
+dependencies = ["requests", "rich", "fastapi", "uvicorn", "pydantic", "prompt_toolkit"]
+
+[project.scripts]
+a1ma = "a1ma.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["a1ma*"]
+
+[tool.setuptools.package-data]
+a1ma = ["static/*"]

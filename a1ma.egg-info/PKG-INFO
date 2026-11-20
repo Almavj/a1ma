@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: a1ma
+Version: 0.1.0
+Summary: a1ma — autonomous coding/security agent on free OpenRouter models
+Requires-Python: >=3.10
+Requires-Dist: requests
+Requires-Dist: rich

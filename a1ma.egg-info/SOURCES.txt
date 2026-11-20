@@ -1,0 +1,14 @@
+pyproject.toml
+a1ma/__init__.py
+a1ma/__main__.py
+a1ma/agent.py
+a1ma/cli.py
+a1ma/config.py
+a1ma/llm.py
+a1ma/tools.py
+a1ma.egg-info/PKG-INFO
+a1ma.egg-info/SOURCES.txt
+a1ma.egg-info/dependency_links.txt
+a1ma.egg-info/entry_points.txt
+a1ma.egg-info/requires.txt
+a1ma.egg-info/top_level.txt
